@@ -15,4 +15,4 @@ def enc(string):
 
 if __name__ == '__main__':
     args = parser.parse_args()
-    print(enc(args.input_str))
+    print(enc(args.input_str.strip()))
